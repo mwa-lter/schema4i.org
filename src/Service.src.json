@@ -67,7 +67,7 @@
             },
             "ServiceAudience": {
                 "@id": "schema:audience",
-                "@type": "schema:Text"
+                "@type": "s4i:Audience"
             },
             "Slogan": {
                 "@id": "schema:slogan",
