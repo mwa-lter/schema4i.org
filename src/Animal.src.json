@@ -3,7 +3,10 @@
     "uri": "http://schema4i.org/Animal",
     "description": "A living organism that feeds on organic matter, typically having specialized sense organs and nervous system and able to respond rapidly to stimuli.",
     "links": [],
-    "parents": [],
+        "parents": [
+        { "@id": "http://schema4i.org/Dog" },
+        { "@id": "http://schema4i.org/Horse" }
+    ],
     "base": [
         { "@id": "http://schema4i.org/Thing" }
     ],
@@ -89,7 +92,7 @@
                 "Salutation": "3"
             },
             "AnimalUse": "12",
-            "AnimalIdentificationType": "01",
+            "AnimalIdentificationType": "99",
             "LifeCycle": {
                 "@type": "AnimalLifeCycleEvent",
                 "Name": "Geburt",
