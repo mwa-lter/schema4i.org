@@ -44,6 +44,13 @@
                     "@vocab": "s4i:EnumAnimalUseCode#"
                 }
             },
+             "AnimalIdentificationType": {
+                "@id": "s4i:AnimalIdentification",
+                "@type": "@vocab",
+                "@context": {
+                    "@vocab": "s4i:EnumAnimalIdentificationTypeCode#"
+                }
+            },
             "LifeCycle": {
                 "@id": "s4i:LifeCycle",
                 "@type": "s4i:AnimalLifeCycleEvent"
@@ -82,6 +89,7 @@
                 "Salutation": "3"
             },
             "AnimalUse": "12",
+            "AnimalIdentificationType": "01",
             "LifeCycle": {
                 "@type": "AnimalLifeCycleEvent",
                 "Name": "Geburt",
