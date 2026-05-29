@@ -94,6 +94,10 @@
                 "@id": "s4i:Group",
                 "@type": "s4i:Group"
             },
+            "HasTerminationClause": {
+                 "@id": "s4i:TerminationClause",
+                "@type": "schema:Boolean"
+            }, 
             "ModificationCode": {
                 "@id": "s4i:OrderModificationCode",
                 "@type": "@vocab",
@@ -299,6 +303,7 @@
                 }
             },
             "Group": {},
+            "HasTerminationClause": false,
             "OrderDate": "2020-07-30",
             "OrderedItem": {},
             "OrderNumber": "A-Nr.4711",
