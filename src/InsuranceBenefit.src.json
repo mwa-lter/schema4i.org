@@ -18,7 +18,10 @@
         "BenefitType": [
             { "@id": "http://schema4i.org/EnumInsuranceBenefitCode" },
             { "@id": "http://schema4i.org/EnumDisabilityBenefitCode" },
-             { "@id": "http://schema4i.org/EnumLifeInsuranceValueCode" }
+            { "@id": "http://schema4i.org/EnumLifeInsuranceValueCode" },
+            { "@id": "http://schema4i.org/EnumLegalInsuranceBenefitCode" },
+            { "@id": "http://schema4i.org/EnumLifeInsuranceBenefitCode" }
+
         ]
     },
     "context": {
