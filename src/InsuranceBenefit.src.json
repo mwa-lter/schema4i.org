@@ -20,6 +20,9 @@
             { "@id": "http://schema4i.org/EnumDisabilityBenefitCode" },
             { "@id": "http://schema4i.org/EnumLifeInsuranceValueCode" },
             { "@id": "http://schema4i.org/EnumLegalInsuranceBenefitCode" },
+            { "@id": "http://schema4i.org/EnumVehicleInsuranceBenefitCode" },
+            { "@id": "http://schema4i.org/EnumHealthInsuranceBenefitCode" },
+            { "@id": "http://schema4i.org/EnumCompositeInsuranceBenefitCode" },
             { "@id": "http://schema4i.org/EnumLifeInsuranceBenefitCode" }
 
         ]
