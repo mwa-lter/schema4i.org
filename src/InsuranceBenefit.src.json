@@ -40,6 +40,10 @@
             "BenefitType": {
                 "@id": "s4i:BenefitType"
             },
+            "PriceIndex": {
+                "@id": "s4i:PriceIndex", 
+                "@type": "schema:Number"
+            },
             "TreatmentType": {
                 "@id": "s4i:TreatmentType",
                 "@type": "@vocab",
