@@ -36,6 +36,13 @@
             "BenefitType": {
                 "@id": "s4i:BenefitType"
             },
+            "TreatmentType": {
+                "@id": "s4i:TreatmentType",
+                "@type": "@vocab",
+                "@context": {
+                    "@vocab": "s4i:EnumTreatmentTypeCode#"
+                }
+            },
              "ValidFrom": {
                 "@id": "schema:validFrom",
                 "@type": "schema:DateTime"
@@ -45,7 +52,7 @@
                 "@type": "schema:DateTime"
             },
             "Value": {
-                 "@id": "s4i:SumInsured"
+                "@id": "s4i:SumInsured"
             }
         }
     },
