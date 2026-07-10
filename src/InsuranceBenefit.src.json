@@ -40,6 +40,20 @@
             "BenefitType": {
                 "@id": "s4i:BenefitType"
             },
+            "DamageType": {
+                "@id": "s4i:DamageType",
+                "@type": "@vocab",
+                "@context": {
+                    "@vocab": "s4i:EnumDamageCategoryCode"
+                }
+            },
+            "DegreeOfDisability": {
+                "@id": "s4i:DegreeOfDisability",
+                "@type": "@vocab",
+                "@context": {
+                    "@vocab": "s4i:EnumDegreeOfDisabilityCode"
+                }
+            },
             "PriceIndex": {
                 "@id": "s4i:PriceIndex", 
                 "@type": "schema:Number"
