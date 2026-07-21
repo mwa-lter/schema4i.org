@@ -1,0 +1,67 @@
+{
+    "type": "EnumGDVModificationCode_DE",
+    "uri": "http://schema4i.org/EnumGDVModificationCode_DE",
+    "description": "Zweistelliger Identifikationscode eines Geschäftsvorfalls gemäß GDV-Norm mit dem Veröffentlichungsdatum 2013. Er dient z.B. zur Schlüsselung eines Änderungsgrundes eines Versicherungsvertrages (Order#ModificationCode).",
+    "links": [{
+            "url": "http://schema4i.org/EnumGDVModificationCode",
+            "description": "Englische Dokumentation der Schlüsselwerte"
+        },
+        {
+            "url": "https://www.gdv-online.de/vuvm/bestand/rel2013/anl6.htm",
+            "description": "GDV Änderungsgrunde"
+        }
+    ],
+    "parents": [
+        { "@id": "http://schema4i.org/Order#ModificationCode" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Bei Erstausstattung (Stichtagsbestand, Bestandsübernahme)": "s4i:EnumTransactionCode#00",
+            "Erstlieferung eines Vertrages neue Vertragsnummer nach Vertragstrennung / Nachversicherung z. B.: Umstellung Einzelversicherung in Gruppenversicherung / Umstellung Gruppenversicherung in Einzelversicherung": "s4i:EnumTransactionCode#01",
+            "VN-Wechsel": "s4i:EnumTransactionCode#02",
+            "Fahrzeugwechsel": "s4i:EnumTransactionCode#03",
+            "Änderung Regionalklasse / Tarifgruppe / Typklasse (KFZ)": "s4i:EnumTransactionCode#04",
+            "Änderung Deckungsumfang / Versicherungsschutz / Übergang von Vollversicherung auf Anwartschaft bzw. von Anwartschaft auf Vollversicherung": "s4i:EnumTransactionCode#05",
+            "Änderung der SFR-Einstufung (KFZ) / Beitragsrückerstattung (KV)": "s4i:EnumTransactionCode#06",
+            "Kurzfristiger Einschluß oder Änderung der Deckung": "s4i:EnumTransactionCode#07",
+            "Wiederinkraftsetzung": "s4i:EnumTransactionCode#08",
+            "Änderung der Versicherungsdauer / des Versicherungsbeginnes": "s4i:EnumTransactionCode#09",
+            "Änderung zum Risiko / Risikozuschlag / Leistungsausschluß": "s4i:EnumTransactionCode#10",
+            "Änderung der Bedingungen": "s4i:EnumTransactionCode#11",
+            "Bedingungsgemäße Zuwachserhöhung / dynamische Leistungsanpassung": "s4i:EnumTransactionCode#12",
+            "Änderung der Zahlungsweise / Fälligkeit": "s4i:EnumTransactionCode#13",
+            "Änderung der Versicherungssumme": "s4i:EnumTransactionCode#14",
+            "Erhöhung Zusatzversicherung": "s4i:EnumTransactionCode#15",
+            "Einschluß Zusatz": "s4i:EnumTransactionCode#16",
+            "Ausschluß Zusatz": "s4i:EnumTransactionCode#17",
+            "Änderung der Beiträge (z. B. Beitragsanpassung, bedingungsgemäße Beitragserhöhung)": "s4i:EnumTransactionCode#18",
+            "Änderung Personendaten": "s4i:EnumTransactionCode#19",
+            "Vertragszusammenlegung": "s4i:EnumTransactionCode#20",
+            "Ersatzvertrag": "s4i:EnumTransactionCode#21",
+            "Bestandsübertragung (Übertragung von anderem Vermittler)": "s4i:EnumTransactionCode#22",
+            "Agenturnummernwechsel (Änderung der Organisationseinheit intern beim Vermittler)": "s4i:EnumTransactionCode#23",
+            "Neuzugang nach Vertragsneuordnung": "s4i:EnumTransactionCode#24",
+            "Neuzugang nach Tarifwechsel": "s4i:EnumTransactionCode#25",
+            "Ablehnung der Dynamikerhöhung": "s4i:EnumTransactionCode#26",
+            "Bedingungsgemäße Zuwachserhöhung / nichtdynamische Leistungsanpassung (z. B. bei Aufbaumodellen)": "s4i:EnumTransactionCode#27",
+            "Umstellung der Todesfalleistung in Prozent": "s4i:EnumTransactionCode#28",
+            "Wegfall des Risikovorlaufs": "s4i:EnumTransactionCode#29",
+            "Tarifliche Beitragsumstellung (z. B. Tarif mit ermäßigtem Anfangsbeitrag)": "s4i:EnumTransactionCode#30",
+            "Tarifwechsel (Versicherungsscheinnummer bleibt bestehen)": "s4i:EnumTransactionCode#31",
+            "Zuzahlung": "s4i:EnumTransactionCode#32",
+            "Änderung des Bezugsrechts": "s4i:EnumTransactionCode#33",
+            "Folgerechnung": "s4i:EnumTransactionCode#34",
+            "Hauptfälligkeitsrechnung": "s4i:EnumTransactionCode#35",
+            "Neuzugang wegen Übernahme von anderem VU": "s4i:EnumTransactionCode#36",
+            "Übergang auf anderes VU": "s4i:EnumTransactionCode#37",
+            "SFR-Änderung abhängige Fahrzeuge Wechselkennzeichen (W-AKZ)": "s4i:EnumTransactionCode#38",
+            "sonstige Änderung": "s4i:EnumTransactionCode#99"
+        }
+    }
+}
