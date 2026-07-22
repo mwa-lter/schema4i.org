@@ -8,12 +8,7 @@
     "base": [
         { "@id": "http://schema4i.org/Product" }
     ],
-    "multipletypes": {
-        "": [
-            { "@id": "https://schema.openontology.org/definitions/boolean" },
-            { "@id": "http://schema4i.org/EnumGarageCode" }
-        ]
-    },
+    "multipletypes": {},
     "context": {
         "@context": {
             "@version": 1.1,
