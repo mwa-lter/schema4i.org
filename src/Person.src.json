@@ -60,7 +60,7 @@
                 "@type": "schema:Date"
             },
              "BirthName": {
-                "@id": "s4i:FamilyNameAtBirth",
+                "@id": "s4i:BirthName",
                "@type": "schema:Text"
             },
             "BirthPlace": {

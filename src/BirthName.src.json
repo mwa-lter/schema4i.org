@@ -1,7 +1,7 @@
 {
-    "type": "FamilyNameAtBirth",
-    "uri": "http://schema4i.org/FamilyNameAtBirth",
-    "description": "A family name at birth of a Person.",
+    "type": "BirthName",
+    "uri": "http://schema4i.org/BirthName",
+    "description": "A birth name of a Person.",
     "links": [],
     "parents": [
         { "@id": "http://schema4i.org/Person#BirthName" }
@@ -16,7 +16,7 @@
             "s4i": "http://schema4i.org/",
             "schema": "http://schema.org/",
             "BirthName": {
-                "@id": "s4i:FamilyNameAtBirth",
+                "@id": "s4i:BirthName",
                 "@type": "schema:Text"
             }
         }
@@ -25,11 +25,7 @@
         "title": "Sample Person with BirthName",
         "tab": "tab-expanded",
         "input": {
-            "@context": [
-                "http://schema4i.org/Thing.jsonld",
-                "http://schema4i.org/Person.jsonld"
-            ],
-            "@type": "Person",
+            "@context": {},
             "BirthName": "Meier"
         },
         "context": {}
